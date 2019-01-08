@@ -5,8 +5,14 @@ date: "1/2/2019"
 output: html_document
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r library}
+library(knitr)    # For knitting document and include_graphics function
+library(ggplot2)  # For plotting
 ```
 # Diversification in receptors and local density-dependent selection could be key to diverse functional group of antigens
 

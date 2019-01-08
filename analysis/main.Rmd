@@ -58,7 +58,7 @@ If total transmissibility is kept constant while transmission rate and duration 
 ```{r Figure 2, echo=FALSE, fig.cap="genes with longer duration is preferred when transmission intensity is high", out.width = '100%'}
 knitr::include_graphics("./output/Fig2_EIR_transmissionRate_tradeoff.png")
 ```
-![Fig2](output/Fig2_EIR_transmissionRate_tradeoff.png)
+![Fig2](../output/Fig2_EIR_transmissionRate_tradeoff.png)
 
 
 

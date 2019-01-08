@@ -33,6 +33,7 @@ In *falciparum* malaria transmission, *var* gene family, which codes *Pf*Emp1 on
 Different ups types have average difference in many features. Ups types determine {\it var} genes' propensity to exchange DNA with other {\it var} genes in the genome via ectopic recombination \supercite{Freitas-Junior2000-qw,Claessens2014-pi}. In turn, differences in recombination rate result in different levels of diversity and conservation among ups types: upsA genes form a separate recombination group which shares few homologous segments with upsB/upsC genes \supercite{Bull2008-jb,Larremore2013-te}; they display different characteristics in terms of expression order, binding affinity to host receptor proteins, as well as disease severity \supercite{Kyriacou2006-cq,Janes2011-yi}. UpsA genes are also preferentially expressed in hosts with limited immunity \supercite{Cham2009-fd,Bull2002-ch,Warimwe2009-fw}, exhibiting higher serodominance in infants than other var groups seroprevalent with age \supercite{Barry2011-oi}. 
 
 It is hard to disentangle however, which properties are the causes and which are the consequences. And how the potential ecological differences influence the longterm evoluitonary differences between the groups. 
+
 ### possible hypotheses that explain the divergence in their properties
 
 There are different hypotheses regarding the average differences we see in the groups. 
@@ -54,7 +55,7 @@ Purifying selection is prevalent. positive selection among different groups.
 
 If total transmissibility is kept constant while transmission rate and duration of infection trade off in naive hosts, then percentage of genes with lower transmission rate but higher duration of infection will be favored in higher transmission intensity.
 
-![Figure 2]("output/Fig2_EIR_transmissionRate_tradeoff.pdf")
+![Figure 2]("output/Fig2_EIR_transmissionRate_tradeoff.png")
 
 
 

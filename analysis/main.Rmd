@@ -56,7 +56,7 @@ Purifying selection is prevalent. positive selection among different groups.
 If total transmissibility is kept constant while transmission rate and duration of infection trade off in naive hosts, then percentage of genes with lower transmission rate but higher duration of infection will be favored in higher transmission intensity.
 
 ```{r Figure 2, echo=FALSE, fig.cap="genes with longer duration is preferred when transmission intensity is high", out.width = '100%'}
-knitr::include_graphics("../output/Fig2_EIR_transmissionRate_tradeoff.png")
+knitr::include_graphics("output/Fig2_EIR_transmissionRate_tradeoff.png")
 ```
 
 

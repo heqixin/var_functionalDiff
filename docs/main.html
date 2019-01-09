@@ -26,9 +26,7 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -96,9 +94,6 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -322,7 +317,7 @@ div.section {
 </div>
 
 
-<p><strong>Last updated:</strong> 2019-01-08</p>
+<p><strong>Last updated:</strong> 2019-01-09</p>
 <strong>workflowr checks:</strong> <small>(Click a bullet for more information)</small>
 <ul>
 <li>
@@ -346,13 +341,21 @@ div.section {
 </details>
 </li>
 <li>
-<p><details> <summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> <a href="https://github.com/heqixin/var_functionalDiff/tree/d564f5ea15e4443711c2e0ba240efaf3c64e9363" target="_blank">d564f5e</a> </summary></p>
+<p><details> <summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> <a href="https://github.com/heqixin/var_functionalDiff/tree/db8a4b4ee05357c248482816a2bbd46231fa2ca8" target="_blank">db8a4b4</a> </summary></p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 <pre><code>
-Staged changes:
-    New:        analysis/touxiang.JPG
-    New:        output/Fig1_varFunc.ai
-    New:        output/Fig2_EIR_transmissionRate_tradeoff.pdf
+Ignored files:
+    Ignored:    .DS_Store
+    Ignored:    .Rhistory
+    Ignored:    analysis/.DS_Store
+    Ignored:    docs/.DS_Store
+
+Untracked files:
+    Untracked:  main-old.test.Rmd
+
+Unstaged changes:
+    Deleted:    analysis/touxiang.JPG
+    Modified:   output/Fig1_varFunc.ai
 
 </code></pre>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not included in this status report because it is ok for generated content to have uncommitted changes. </details>
@@ -381,6 +384,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+html
+</td>
+<td style="text-align:left;">
+<a href="https://cdn.rawgit.com/heqixin/var_functionalDiff/09f09daa5b76fc4a9e76451617d8908cca957f49/docs/main.html" target="_blank">09f09da</a>
+</td>
+<td style="text-align:left;">
+Qixin He
+</td>
+<td style="text-align:left;">
+2019-01-08
+</td>
+<td style="text-align:left;">
+Build site.
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 html
@@ -777,8 +797,6 @@ wflow_publish(“analysis/*Rmd“)
 </ul>
 <p></details></p>
 <hr />
-<pre class="r"><code>library(knitr)    # For knitting document and include_graphics function
-library(ggplot2)  # For plotting</code></pre>
 <div id="diversification-in-receptors-and-local-density-dependent-selection-could-be-key-to-diverse-functional-group-of-antigens" class="section level1">
 <h1>Diversification in receptors and local density-dependent selection could be key to diverse functional group of antigens</h1>
 <p>Authors: Qixin He, Mercedes Pascual</p>
@@ -799,6 +817,12 @@ library(ggplot2)  # For plotting</code></pre>
 <div id="specific-function-of-the-genes" class="section level3">
 <h3>specific function of the genes</h3>
 <p>In <em>falciparum</em> malaria transmission, <em>var</em> gene family, which codes <em>Pf</em>Emp1 on the surface of infected human red blood cells, is not only the major blood-stage antigen to our immune system, but also confer binding to host epithelial cells or other non-infected red blood cells to avoid splenic clearance and enhance reproduction rates of the parasites. There are 50-60 <em>var</em> genes per parasite genome, each generation, the parasite only display one of the phenotypes to the host. Despite overall immense diversity of amino acid composition of var genes within and between parasite genomes, major groups of var genes exist based on their 5’-flanking regions called ups that control the expression of genes .</p>
+<div class="figure" style="text-align: center">
+<img src="output/Fig1_varFunc.png" alt="immune selection and purifying selection of antigen genes and different transmission strategies" width="100%" />
+<p class="caption">
+immune selection and purifying selection of antigen genes and different transmission strategies
+</p>
+</div>
 <p>Different ups types have average difference in many features. Ups types determine {} genes’ propensity to exchange DNA with other {} genes in the genome via ectopic recombination . In turn, differences in recombination rate result in different levels of diversity and conservation among ups types: upsA genes form a separate recombination group which shares few homologous segments with upsB/upsC genes ; they display different characteristics in terms of expression order, binding affinity to host receptor proteins, as well as disease severity . UpsA genes are also preferentially expressed in hosts with limited immunity , exhibiting higher serodominance in infants than other var groups seroprevalent with age .</p>
 <p>It is hard to disentangle however, which properties are the causes and which are the consequences. And how the potential ecological differences influence the longterm evoluitonary differences between the groups.</p>
 </div>
@@ -819,39 +843,78 @@ library(ggplot2)  # For plotting</code></pre>
 <h3>trade-off between transmission rate and duration of infection</h3>
 <p>If total transmissibility is kept constant while transmission rate and duration of infection trade off in naive hosts, then percentage of genes with lower transmission rate but higher duration of infection will be favored in higher transmission intensity.</p>
 <div class="figure" style="text-align: center">
-<img src="../output/Fig2_EIR_transmissionRate_tradeoff.png" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
+<img src="output/Fig2_EIR_transmissionRate_tradeoff.png" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
 <p class="caption">
 genes with longer duration is preferred when transmission intensity is high
 </p>
-</div>
-<div class="figure" style="text-align: center">
-<img src="touxiang.JPG" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
-<p class="caption">
-genes with longer duration is preferred when transmission intensity is high
-</p>
-</div>
-<div class="figure" style="text-align: center">
-<img src="analysis/touxiang.JPG" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
-<p class="caption">
-genes with longer duration is preferred when transmission intensity is high
-</p>
-</div>
-<div class="figure">
-<img src="Fig2_EIR_transmissionRate_tradeoff.png" alt="Fig2" />
-<p class="caption">Fig2</p>
 </div>
 </div>
 <div id="selection-minimizes-fitness-differences-among-genes" class="section level3">
 <h3>selection minimizes fitness differences among genes</h3>
+If gene pool starts with a varying ratio of genes with high and low transmission rates, stronger transmission rates will push the system towards genes with higher fitness, while at lower transmission rates, system stays close to the initial state.
+<div class="figure" style="text-align: center">
+<img src="output/Fig2_2_varyingStartingRatio.png" alt="Genes with varying starting pool used" width="100%" />
+<p class="caption">
+Genes with varying starting pool used
+</p>
 </div>
-<div id="density-dependent-receptor-selection-stablizes-the-functional-group-composition" class="section level3">
-<h3>density-dependent receptor selection stablizes the functional group composition</h3>
+Slight total fitness difference between groups will lead to dominance of one group under strong competition. We allow for different levels of trade-off between transmission rates and duration of infection with varying recombination rates. As genes with higher fitness, once gain higher proportion will also increase recombinant genes, they will take over the system.
+<div class="figure" style="text-align: center">
+<img src="output/Fig7_strongerSelectionLeadsToDeviationOfVarGenesTraits.png" alt="Scenarios with varying levels of trade-off" width="100%" />
+<p class="caption">
+Scenarios with varying levels of trade-off
+</p>
+</div>
+<p>If low fitness genes are linked with higher recombination rates, they will be favored by the system only if they push the system towards a regime of transmission.</p>
+<div class="figure" style="text-align: center">
+<img src="output/Fig8_percentageOfHighMutants.png" alt="percentage of genes with high recombination rates and low fitness" width="100%" />
+<p class="caption">
+percentage of genes with high recombination rates and low fitness
+</p>
+</div>
 </div>
 <div id="regime-shift-determined-by-effective-population-size" class="section level3">
 <h3>regime shift determined by effective population size</h3>
+<p>new genes occur and establish when N*r exeeds a threshold.</p>
+<div class="figure" style="text-align: center">
+<img src="/Users/Qixin/Dropbox/var_funcDiffResults/var_functionalDiff/output/Fig3_percentage%20of%20new%20genes.png" alt="percentage of new genes as a function of generation of new variants" width="100%" />
+<p class="caption">
+percentage of new genes as a function of generation of new variants
+</p>
+</div>
 </div>
 <div id="gene-age-functionality-and-immunity-niche-distribution" class="section level3">
 <h3>gene age, functionality and immunity niche distribution</h3>
+Frequency dependent selection of genes shown as a traveling wave
+<div class="figure" style="text-align: center">
+<img src="output/Fig4_geneAge.png" alt="gene age and its frequency" width="100%" />
+<p class="caption">
+gene age and its frequency
+</p>
+</div>
+higher recombination rates of genes are preferred for more newer genes, with higher rates of dysfunctional genes
+<div class="figure" style="text-align: center">
+<img src="output/Fig5_meanRecombinationAge.png" alt="gene age and recombination rates" width="100%" />
+<p class="caption">
+gene age and recombination rates
+</p>
+</div>
+<div class="figure" style="text-align: center">
+<img src="output/Fig6_meanFunctionalityAge.png" alt="gene age and percentage of functional genes" width="100%" />
+<p class="caption">
+gene age and percentage of functional genes
+</p>
+</div>
+</div>
+<div id="density-dependent-receptor-selection-stablizes-the-functional-group-composition" class="section level3">
+<h3>density-dependent receptor selection stablizes the functional group composition</h3>
+Previous analyses have shown that selection will not be able to maintain different strategies with trade-offs as long as they have abosulte fitness differences regardless of the exact trade-off scenarios. Density-dependent selection from different receptors might be key to maintain the stable composition.
+<div class="figure" style="text-align: center">
+<img src="output/Fig10_separateReceptors.png" alt="evolutionary processes of genes targeting different receptors" width="100%" />
+<p class="caption">
+evolutionary processes of genes targeting different receptors
+</p>
+</div>
 </div>
 </div>
 <div id="discussion" class="section level2">
@@ -899,9 +962,13 @@ genes with longer duration is preferred when transmission intensity is high
 <div id="session-information" class="section level2">
 <h2>Session information</h2>
 <pre class="r"><code>sessionInfo()</code></pre>
-<pre><code>R version 3.3.2 (2016-10-31)
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
-Running under: macOS  10.14
+<pre><code>R version 3.5.0 (2018-04-23)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS High Sierra 10.13.6
+
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
 
 locale:
 [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -910,22 +977,23 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] ggplot2_3.1.0 knitr_1.20   
+[1] ggplot2_3.1.0
 
 loaded via a namespace (and not attached):
- [1] Rcpp_0.12.13      bindr_0.1         whisker_0.3-2    
- [4] magrittr_1.5      workflowr_1.1.1   munsell_0.4.3    
- [7] colorspace_1.3-2  R6_2.2.2          rlang_0.2.1      
-[10] highr_0.7         dplyr_0.7.4       stringr_1.2.0    
-[13] plyr_1.8.4        tools_3.3.2       grid_3.3.2       
-[16] gtable_0.2.0      R.oo_1.21.0       withr_2.0.0      
-[19] git2r_0.22.1      htmltools_0.3.6   assertthat_0.2.0 
-[22] yaml_2.1.19       lazyeval_0.2.0    rprojroot_1.3-2  
-[25] digest_0.6.12     tibble_1.4.2      bindrcpp_0.2     
-[28] R.utils_2.5.0     glue_1.2.0        evaluate_0.10.1  
-[31] rmarkdown_1.10    stringi_1.1.5     pillar_1.2.3     
-[34] scales_0.5.0      backports_1.1.2   R.methodsS3_1.7.1
-[37] pkgconfig_2.0.1  </code></pre>
+ [1] Rcpp_0.12.17      compiler_3.5.0    pillar_1.2.3     
+ [4] git2r_0.23.0      plyr_1.8.4        highr_0.6        
+ [7] workflowr_1.1.1   bindr_0.1.1       R.methodsS3_1.7.1
+[10] R.utils_2.6.0     tools_3.5.0       digest_0.6.15    
+[13] evaluate_0.10.1   tibble_1.4.2      gtable_0.2.0     
+[16] pkgconfig_2.0.1   rlang_0.2.1       yaml_2.1.19      
+[19] bindrcpp_0.2.2    withr_2.1.2       stringr_1.3.1    
+[22] dplyr_0.7.5       knitr_1.20        rprojroot_1.3-2  
+[25] grid_3.5.0        tidyselect_0.2.4  glue_1.2.0       
+[28] R6_2.2.2          rmarkdown_1.9     purrr_0.2.5      
+[31] magrittr_1.5      whisker_0.3-2     backports_1.1.2  
+[34] scales_0.5.0      htmltools_0.3.6   assertthat_0.2.0 
+[37] colorspace_1.3-2  stringi_1.2.2     lazyeval_0.2.1   
+[40] munsell_0.4.3     R.oo_1.22.0      </code></pre>
 </div>
 </div>
 

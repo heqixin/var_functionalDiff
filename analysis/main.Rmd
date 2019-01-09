@@ -88,7 +88,7 @@ knitr::include_graphics("../output/Fig7_strongerSelectionLeadsToDeviationOfVarGe
 If low fitness genes are linked with higher recombination rates, they will be favored by the system only if they push the system towards a regime of transmission.
 
 ```{r Figure 10, echo=FALSE, fig.cap="percentage of genes with high recombination rates and low fitness", out.width = '100%'}
-knitr::include_graphics("output/Fig8_percentageOfHighMutants.png")
+knitr::include_graphics("../output/Fig8_percentageOfHighMutants.png")
 ```
 
 

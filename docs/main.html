@@ -341,7 +341,7 @@ div.section {
 </details>
 </li>
 <li>
-<p><details> <summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> <a href="https://github.com/heqixin/var_functionalDiff/tree/db8a4b4ee05357c248482816a2bbd46231fa2ca8" target="_blank">db8a4b4</a> </summary></p>
+<p><details> <summary> <strong style="color:blue;">✔</strong> <strong>Repository version:</strong> <a href="https://github.com/heqixin/var_functionalDiff/tree/f634752e6cbfa7ce8bff5d2ed5ccf66054976699" target="_blank">f634752</a> </summary></p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 <pre><code>
 Ignored files:
@@ -384,6 +384,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+Rmd
+</td>
+<td style="text-align:left;">
+<a href="https://github.com/heqixin/var_functionalDiff/blob/f634752e6cbfa7ce8bff5d2ed5ccf66054976699/analysis/main.Rmd" target="_blank">f634752</a>
+</td>
+<td style="text-align:left;">
+Qixin He
+</td>
+<td style="text-align:left;">
+2019-01-09
+</td>
+<td style="text-align:left;">
+wflow_publish(“analysis/*Rmd“)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+html
+</td>
+<td style="text-align:left;">
+<a href="https://cdn.rawgit.com/heqixin/var_functionalDiff/3b9e76021b153225fe6b6406e09c8cdc4be72f69/docs/main.html" target="_blank">3b9e760</a>
+</td>
+<td style="text-align:left;">
+Qixin He
+</td>
+<td style="text-align:left;">
+2019-01-09
+</td>
+<td style="text-align:left;">
+Build site.
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 html
@@ -818,7 +852,7 @@ wflow_publish(“analysis/*Rmd“)
 <h3>specific function of the genes</h3>
 <p>In <em>falciparum</em> malaria transmission, <em>var</em> gene family, which codes <em>Pf</em>Emp1 on the surface of infected human red blood cells, is not only the major blood-stage antigen to our immune system, but also confer binding to host epithelial cells or other non-infected red blood cells to avoid splenic clearance and enhance reproduction rates of the parasites. There are 50-60 <em>var</em> genes per parasite genome, each generation, the parasite only display one of the phenotypes to the host. Despite overall immense diversity of amino acid composition of var genes within and between parasite genomes, major groups of var genes exist based on their 5’-flanking regions called ups that control the expression of genes .</p>
 <div class="figure" style="text-align: center">
-<img src="output/Fig1_varFunc.png" alt="immune selection and purifying selection of antigen genes and different transmission strategies" width="100%" />
+<img src="../output/Fig1_varFunc.png" alt="immune selection and purifying selection of antigen genes and different transmission strategies" width="100%" />
 <p class="caption">
 immune selection and purifying selection of antigen genes and different transmission strategies
 </p>
@@ -843,24 +877,54 @@ immune selection and purifying selection of antigen genes and different transmis
 <h3>trade-off between transmission rate and duration of infection</h3>
 <p>If total transmissibility is kept constant while transmission rate and duration of infection trade off in naive hosts, then percentage of genes with lower transmission rate but higher duration of infection will be favored in higher transmission intensity.</p>
 <div class="figure" style="text-align: center">
-<img src="output/Fig2_EIR_transmissionRate_tradeoff.png" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
+<img src="../output/Fig2_EIR_transmissionRate_tradeoff.png" alt="genes with longer duration is preferred when transmission intensity is high" width="100%" />
 <p class="caption">
 genes with longer duration is preferred when transmission intensity is high
 </p>
 </div>
+<details> <summary><em>Expand here to see past versions of Fig2_EIR_transmissionRate_tradeoff.png:</em></summary>
+<table style="border-collapse:separate; border-spacing:5px;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Version
+</th>
+<th style="text-align:left;">
+Author
+</th>
+<th style="text-align:left;">
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="https://github.com/heqixin/var_functionalDiff/blob/09f09daa5b76fc4a9e76451617d8908cca957f49/output/Fig2_EIR_transmissionRate_tradeoff.png" target="_blank">09f09da</a>
+</td>
+<td style="text-align:left;">
+Qixin He
+</td>
+<td style="text-align:left;">
+2019-01-08
+</td>
+</tr>
+</tbody>
+</table>
+<p></details></p>
 </div>
 <div id="selection-minimizes-fitness-differences-among-genes" class="section level3">
 <h3>selection minimizes fitness differences among genes</h3>
 If gene pool starts with a varying ratio of genes with high and low transmission rates, stronger transmission rates will push the system towards genes with higher fitness, while at lower transmission rates, system stays close to the initial state.
 <div class="figure" style="text-align: center">
-<img src="output/Fig2_2_varyingStartingRatio.png" alt="Genes with varying starting pool used" width="100%" />
+<img src="../output/Fig2_2_varyingStartingRatio.png" alt="Genes with varying starting pool used" width="100%" />
 <p class="caption">
 Genes with varying starting pool used
 </p>
 </div>
 Slight total fitness difference between groups will lead to dominance of one group under strong competition. We allow for different levels of trade-off between transmission rates and duration of infection with varying recombination rates. As genes with higher fitness, once gain higher proportion will also increase recombinant genes, they will take over the system.
 <div class="figure" style="text-align: center">
-<img src="output/Fig7_strongerSelectionLeadsToDeviationOfVarGenesTraits.png" alt="Scenarios with varying levels of trade-off" width="100%" />
+<img src="../output/Fig7_strongerSelectionLeadsToDeviationOfVarGenesTraits.png" alt="Scenarios with varying levels of trade-off" width="100%" />
 <p class="caption">
 Scenarios with varying levels of trade-off
 </p>
@@ -877,7 +941,7 @@ percentage of genes with high recombination rates and low fitness
 <h3>regime shift determined by effective population size</h3>
 <p>new genes occur and establish when N*r exeeds a threshold.</p>
 <div class="figure" style="text-align: center">
-<img src="/Users/Qixin/Dropbox/var_funcDiffResults/var_functionalDiff/output/Fig3_percentage%20of%20new%20genes.png" alt="percentage of new genes as a function of generation of new variants" width="100%" />
+<img src="../output/Fig3_percentage of new genes.png" alt="percentage of new genes as a function of generation of new variants" width="100%" />
 <p class="caption">
 percentage of new genes as a function of generation of new variants
 </p>
@@ -887,20 +951,20 @@ percentage of new genes as a function of generation of new variants
 <h3>gene age, functionality and immunity niche distribution</h3>
 Frequency dependent selection of genes shown as a traveling wave
 <div class="figure" style="text-align: center">
-<img src="output/Fig4_geneAge.png" alt="gene age and its frequency" width="100%" />
+<img src="../output/Fig4_geneAge.png" alt="gene age and its frequency" width="100%" />
 <p class="caption">
 gene age and its frequency
 </p>
 </div>
 higher recombination rates of genes are preferred for more newer genes, with higher rates of dysfunctional genes
 <div class="figure" style="text-align: center">
-<img src="output/Fig5_meanRecombinationAge.png" alt="gene age and recombination rates" width="100%" />
+<img src="../output/Fig5_meanRecombinationAge.png" alt="gene age and recombination rates" width="100%" />
 <p class="caption">
 gene age and recombination rates
 </p>
 </div>
 <div class="figure" style="text-align: center">
-<img src="output/Fig6_meanFunctionalityAge.png" alt="gene age and percentage of functional genes" width="100%" />
+<img src="../output/Fig6_meanFunctionalityAge.png" alt="gene age and percentage of functional genes" width="100%" />
 <p class="caption">
 gene age and percentage of functional genes
 </p>
@@ -910,7 +974,7 @@ gene age and percentage of functional genes
 <h3>density-dependent receptor selection stablizes the functional group composition</h3>
 Previous analyses have shown that selection will not be able to maintain different strategies with trade-offs as long as they have abosulte fitness differences regardless of the exact trade-off scenarios. Density-dependent selection from different receptors might be key to maintain the stable composition.
 <div class="figure" style="text-align: center">
-<img src="output/Fig10_separateReceptors.png" alt="evolutionary processes of genes targeting different receptors" width="100%" />
+<img src="../output/Fig10_separateReceptors.png" alt="evolutionary processes of genes targeting different receptors" width="100%" />
 <p class="caption">
 evolutionary processes of genes targeting different receptors
 </p>

@@ -40,7 +40,7 @@ Gene families involved in parasite-host armsrace evolve dynamically under birth-
 In *falciparum* malaria transmission, *var* gene family, which codes *Pf*Emp1 on the surface of infected human red blood cells, is not only the major blood-stage antigen to our immune system, but also confer binding to host epithelial cells or other non-infected red blood cells to avoid splenic clearance and enhance reproduction rates of the parasites. There are 50-60 *var* genes per parasite genome, each generation, the parasite only display one of the phenotypes to the host. Despite overall immense diversity of amino acid composition of var genes within and between parasite genomes, major groups of var genes exist based on their  5’-flanking regions called ups that control the expression of genes \supercite{Kraemer2007-zg}.
 
 ```{r Figure 1, echo=FALSE, fig.cap="immune selection and purifying selection of antigen genes and different transmission strategies", out.width = '100%'}
-knitr::include_graphics("output/Fig1_varFunc.png")
+knitr::include_graphics("../output/Fig1_varFunc.png")
 ```
 
 
@@ -70,19 +70,19 @@ Purifying selection is prevalent. positive selection among different groups.
 If total transmissibility is kept constant while transmission rate and duration of infection trade off in naive hosts, then percentage of genes with lower transmission rate but higher duration of infection will be favored in higher transmission intensity.
 
 ```{r Figure 2, echo=FALSE, fig.cap="genes with longer duration is preferred when transmission intensity is high", out.width = '100%'}
-knitr::include_graphics("output/Fig2_EIR_transmissionRate_tradeoff.png")
+knitr::include_graphics("../output/Fig2_EIR_transmissionRate_tradeoff.png")
 ```
 
 ### selection minimizes fitness differences among genes
 
 If gene pool starts with a varying ratio of genes with high and low transmission rates, stronger transmission rates will push the system towards genes with higher fitness, while at lower transmission rates, system stays close to the initial state. 
 ```{r Figure 3, echo=FALSE, fig.cap="Genes with varying starting pool used", out.width = '100%'}
-knitr::include_graphics("output/Fig2_2_varyingStartingRatio.png")
+knitr::include_graphics("../output/Fig2_2_varyingStartingRatio.png")
 ```
 
 Slight total fitness difference between groups will lead to dominance of one group under strong competition. We allow for different levels of trade-off between transmission rates and duration of infection with varying recombination rates. As genes with higher fitness, once gain higher proportion will also increase recombinant genes, they will take over the system.
 ```{r Figure 4, echo=FALSE, fig.cap="Scenarios with varying levels of trade-off", out.width = '100%'}
-knitr::include_graphics("output/Fig7_strongerSelectionLeadsToDeviationOfVarGenesTraits.png")
+knitr::include_graphics("../output/Fig7_strongerSelectionLeadsToDeviationOfVarGenesTraits.png")
 ```
 
 If low fitness genes are linked with higher recombination rates, they will be favored by the system only if they push the system towards a regime of transmission.
@@ -96,7 +96,7 @@ knitr::include_graphics("output/Fig8_percentageOfHighMutants.png")
 new genes occur and establish when N*r exeeds a threshold.
 
 ```{r Figure 5, echo=FALSE, fig.cap="percentage of new genes as a function of generation of new variants", out.width = '100%'}
-knitr::include_graphics("~/Dropbox/var_funcDiffResults/var_functionalDiff/output/Fig3_percentage of new genes.png")
+knitr::include_graphics("../output/Fig3_percentage of new genes.png")
 ```
 
 
@@ -104,22 +104,22 @@ knitr::include_graphics("~/Dropbox/var_funcDiffResults/var_functionalDiff/output
 
 Frequency dependent selection of genes shown as a traveling wave
 ```{r Figure 6, echo=FALSE, fig.cap="gene age and its frequency", out.width = '100%'}
-knitr::include_graphics("output/Fig4_geneAge.png")
+knitr::include_graphics("../output/Fig4_geneAge.png")
 ```
 
 higher recombination rates of genes are preferred for more newer genes, with higher rates of dysfunctional genes
 ```{r Figure 7, echo=FALSE, fig.cap="gene age and recombination rates", out.width = '100%'}
-knitr::include_graphics("output/Fig5_meanRecombinationAge.png")
+knitr::include_graphics("../output/Fig5_meanRecombinationAge.png")
 ```
 ```{r Figure 8, echo=FALSE, fig.cap="gene age and percentage of functional genes", out.width = '100%'}
-knitr::include_graphics("output/Fig6_meanFunctionalityAge.png")
+knitr::include_graphics("../output/Fig6_meanFunctionalityAge.png")
 ```
 
 ### density-dependent receptor selection stablizes the functional group composition
 
 Previous analyses have shown that selection will not be able to maintain different strategies with trade-offs as long as they have abosulte fitness differences regardless of the exact trade-off scenarios. Density-dependent selection from different receptors might be key to maintain the stable composition.
 ```{r Figure 9, echo=FALSE, fig.cap="evolutionary processes of genes targeting different receptors", out.width = '100%'}
-knitr::include_graphics("output/Fig10_separateReceptors.png")
+knitr::include_graphics("../output/Fig10_separateReceptors.png")
 ```
 
 
